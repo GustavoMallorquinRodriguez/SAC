@@ -7,9 +7,27 @@
 </head>
 <body>
     <script src="script.js"></script>
+    <link rel="stylesheet" href="alguma.css">
     <input type="number" placeholder="saldo devedor" id="total"><br>
     <input type="number" placeholder="taxa de juros" id="parcela"><br>
     <input type="number" placeholder="quantidade de parcelas" id="taxa"><br>
     <button onclick="calcula()">Calcular</button><br>
     <span id="resposta"></span>
+
+    <div class="tab">
+        <table id="tabela">
+            <thead>
+                <tr>
+                    <th>Parcela</th>
+                    <th>Prestação</th>
+                    <th>Juros</th>
+                    <th>Amortização</th>
+                    <th>Saldo Devedor</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
 </html>

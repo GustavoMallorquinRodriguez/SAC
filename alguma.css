@@ -1,0 +1,15 @@
+th{
+    width: 100px;
+    border-radius: 5px;
+}
+
+.tab{
+    position: relative;
+    width: 500px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+td{
+    border-radius: 5px;
+}
