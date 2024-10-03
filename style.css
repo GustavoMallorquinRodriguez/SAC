@@ -6,12 +6,12 @@
 header{
     width: 100%;
     display: flex;
-    background-color: darkcyan;
+    background-color: rgba(96, 124, 245, 0.993);
 }
 
 main{
     width: 100%;
-    background-color: darkseagreen;
+    background-color: rgba(133, 192, 133, 0.788);
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -29,7 +29,7 @@ main{
     font-size: 45px;
 }
 footer{
-    background-color: darkslategrey;
+    background-color: rgb(69, 89, 100);
     padding: 10px;
 }
 
@@ -108,4 +108,13 @@ footer .container a{
 li {
     list-style-type: none;
   }
+.texts{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.but{
+    width: 80px;
+    height: 25px;
+}
 
