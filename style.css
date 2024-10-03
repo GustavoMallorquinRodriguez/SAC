@@ -6,12 +6,12 @@
 header{
     width: 100%;
     display: flex;
-    background-color: rgba(96, 124, 245, 0.993);
+    background-color: rgb(68, 116, 139);
 }
 
 main{
     width: 100%;
-    background-color: rgba(133, 192, 133, 0.788);
+    background-color: rgb(233, 233, 179);
     padding: 30px;
     display: flex;
     flex-direction: column;
