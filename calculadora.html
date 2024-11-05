@@ -3,25 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="alguma.css">
     <title>calculo</title>
 </head>
 <body>
+    <header>
     <script src="script.js"></script>
     <link rel="stylesheet" href="alguma.css">
     <input type="number" placeholder="saldo devedor" id="total"><br>
     <input type="number" placeholder="taxa de juros" id="parcela"><br>
     <input type="number" placeholder="quantidade de parcelas" id="taxa"><br>
     <button onclick="calcula()">Calcular</button><br>
+</header>
+    <main>
     <span id="resposta"></span>
-
-    <div class="tab">
+    
         <table id="tabela">
             <thead>
                 <tr>
                     <th>Parcela</th>
                     <th>Prestação</th>
                     <th>Juros</th>
-                    <th>Amortização</th>
+                    <th>Amortização</th>  
                     <th>Saldo Devedor</th>
                 </tr>
             </thead>
@@ -30,4 +33,48 @@
             </tbody>
         </table>
     </div>
+    </main>
+    <footer>
+    <div class="container">
+        <ul>
+            <h3>Conteúdo</h3>
+            <p>Informações tiradas do site:<br>www.embraplan.com.br</p>
+            <div class="redes-sociais">
+                <img class="redes" src="imagens/facebook.png" alt="facebook">
+                <img class="redes" src="imagens/instagram.png" alt="instagram">
+                <img class="redes" src="imagens/linkedin.png" alt="linkedin">
+            </div>
+        </ul>
+        <ul>
+            <h3>Grupo</h3>
+            <li><a href="#">Arthur</a></li>
+            <li><a href="#">Bruno Duarte</a></li>
+            <li><a href="#">Gustavo</a></li>
+            <li><a href="#">Iudy</a></li>
+            <li><a href="#">Alexandre</a></li>
+        </ul>
+        <ul>
+            <h3>Suporte</h3>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Como Funciona</a></li>
+            <li><a href="#">Contatos</a></li>
+            <li><a href="#">Serviços</a></li>
+        </ul>
+        <ul>
+            <h3>
+                <h3>Nos Contate</h3>
+                <li>
+                    <p>45 92093 7890</p>
+                </li>
+                <li>
+                    <p>emailempresa@gmail.com</p>
+                </li>
+                <li>
+                    <p>Brasil</p>
+                </li>
+            </h3>
+        </ul>
+    </div>
+ </footer>
+</body>    
 </html>

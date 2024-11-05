@@ -6,12 +6,13 @@
 header{
     width: 100%;
     display: flex;
-    background-color: rgba(91, 98, 204, 0.993);
+    background-color: rgb(69, 89, 100);
+    color: white;
 }
 
 main{
     width: 100%;
-    background-color: rgba(164, 223, 151, 0.788);
+    background-color: #dfdfdf;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -19,17 +20,22 @@ main{
 }
 
 .logotipo{
-    width: 250px;
-    padding-top: 15px;
-    padding: 15px;
+    width: 200px;
+    box-shadow: 1px 6px 20px greenyellow;
+    border-radius: 200px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 27px;
+    
 }
 .titulo{
     padding-left: 120px;
     padding-top: 100px;
     font-size: 45px;
+    margin-left: -30px;
 }
 footer{
-    background-color: rgb(69, 89, 100);
+    background-color: #1b2029;
     padding: 10px;
 }
 
