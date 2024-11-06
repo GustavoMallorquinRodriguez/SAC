@@ -187,10 +187,11 @@ header{
 
 .logo{
     width: 200px;
-    margin-top: 15px;
-    margin-bottom: 5px;
-    margin-left: 10px;
-
+    box-shadow: 1px 6px 20px greenyellow;
+    border-radius: 200px;
+    margin-top: 115px;
+    margin-bottom: 20px;
+    margin-left: 27px;
 }
 
 
@@ -204,4 +205,14 @@ header{
     margin-top: -130px;
     margin-bottom: 100px;
     color: white;
-}    
+}
+.but_2{
+    margin-left: 1750px;
+    margin-top: -50px;
+    border-radius: 15px;
+    background-color: #272d36;
+}
+.but_2:hover{
+    background-color: rgb(86, 106, 117);
+    transition: 0.7s;
+}
