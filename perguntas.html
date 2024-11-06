@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas</title>
+    <link rel="stylesheet" href="perguntas.css">
+    <script src="perguntas.js"></script>
+</head>
+<body onload="inclui_nome()">
+
+    <script src="script.js"></script>
+
+    <p id="marcacao_nome"></p>
+
+    <form>
+        <h3>Questão 1</h3>
+        <input type="radio" name="quest_1" value="correta">Resposta 1 <br>
+        <input type="radio" name="quest_1" value="errada">Resposta 1 <br>
+        <input type="radio" name="quest_1" value="errada">Resposta 1 <br>
+        <input type="radio" name="quest_1" value="errada">Resposta 1 <br>
+        <p id="resp_correta_1" class="verde"></p><p id="resp_errada_1" class="vermelho"></p><br>
+
+        <h3>Questão 2</h3>
+        <input type="radio" name="quest_2" value="correta">Resposta 1 <br>
+        <input type="radio" name="quest_2" value="errada">Resposta 1 <br>
+        <input type="radio" name="quest_2" value="errada">Resposta 1 <br>
+        <input type="radio" name="quest_2" value="errada">Resposta 1 <br>
+        <p id="resp_correta_2" class="verde"></p><p id="resp_errada_2" class="vermelho"></p>
+
+        <h3>Questão 3</h3>
+        <input type="radio" name="quest_3" value="correta">Resposta 1 <br>
+        <input type="radio" name="quest_3" value="errada">Resposta 1 <br>
+        <input type="radio" name="quest_3" value="errada">Resposta 1 <br>
+        <input type="radio" name="quest_3" value="errada">Resposta 1 <br>
+        <p id="resp_correta_3" class="verde"></p><p id="resp_errada_3" class="vermelho"></p><br>
+
+        <h3>Questão 4</h3>
+        <input type="radio" name="quest_4" value="correta">Resposta 1 <br>
+        <input type="radio" name="quest_4" value="errada">Resposta 1 <br>
+        <input type="radio" name="quest_4" value="errada">Resposta 1 <br>
+        <input type="radio" name="quest_4" value="errada">Resposta 1 <br>
+        <p id="resp_correta_4" class="verde"></p><p id="resp_errada_4" class="vermelho"></p>
+
+        <p id="quantos_acertos"></p>
+            <button type="button" onclick="funcao_resposta()">Responder</button>
+    </form>
+</body>
+</html>
