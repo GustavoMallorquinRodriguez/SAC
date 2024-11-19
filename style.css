@@ -8,6 +8,7 @@ header{
     display: flex;
     background-color: rgb(69, 89, 100);
     color: white;
+    grid-area: cabe;
 }
 
 main{
@@ -16,6 +17,7 @@ main{
     padding: 30px;
     display: flex;
     flex-direction: column;
+    grid-area: prin;
 
 }
 
@@ -37,6 +39,7 @@ main{
 footer{
     background-color: #1b2029;
     padding: 10px;
+    grid-area: roda;
 }
 
 .redes{
@@ -132,4 +135,37 @@ li {
     background-color: #1b2029;
     transition: 0.5s;     
 }
-
+@media only screen and (max-width: 820px) {
+    body{
+        grid-template-areas: 
+        "cabe"
+        "brac"
+        "prin"
+        "roda";
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 50px 500px 200px;
+    }   
+    header img{
+        display: none;
+    } 
+}
+@media only screen and (max-width: 480px) {
+    body{
+        grid-template-areas: 
+        "secn"
+        "prin"
+        "roda";
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 500px 100px;
+    }
+    section{
+        display: flex;
+    }
+    aside{
+        display: none;
+    }
+    header{
+        display: none;
+    }
+    
+}
